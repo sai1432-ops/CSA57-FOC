@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int n,sum;
+	
+	printf("Enter higher limit : ");
+	scanf("%d",&n);
+	
+	sum = n*(n+1)/2;
+	sum =  sum*sum;
+	
+	printf("The sum is : %d",sum);
+	
+	return 0;
+}i
